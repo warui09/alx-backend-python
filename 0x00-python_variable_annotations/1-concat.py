@@ -2,13 +2,8 @@
 """
 Module to perform concat operations.
 
-This module provides a function to concat two strings.
-
 Functions:
     concat(str1: str, str2: str) -> str: concats two strings and returns a string.
-
-Usage:
-    str3 = concat('Hello', 'World')
 """
 
 
@@ -22,7 +17,6 @@ def concat(str1: str, str2: str) -> str:
 
     Returns:
         string: The result of concatenating str2 to str1.
-
     """
 
     return str1 + str2
