@@ -23,9 +23,6 @@ def concat(str1: str, str2: str) -> str:
     Returns:
         string: The result of concatenating str2 to str1.
 
-    Examples:
-        >>> concat('Hello', 'World')
-        Hello World
     """
 
     return str1 + str2
