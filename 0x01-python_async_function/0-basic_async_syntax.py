@@ -4,6 +4,7 @@
 import asyncio
 import random
 
+
 async def wait_random(max_delay: int = 10) -> float:
     """waits a random amoint of seconds and then returns the seconds"""
 
